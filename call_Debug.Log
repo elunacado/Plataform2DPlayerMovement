@@ -1,0 +1,18 @@
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Threading;
+using UnityEngine;
+using Debug = UnityEngine.Debug;
+
+
+
+void FixedUpdate(){
+
+  if(Input.GetKeyDown("space")&& checkGnd.isGrounded)
+          {
+              Debug.Log("Hola Mundo");
+
+          }
+        
+}
